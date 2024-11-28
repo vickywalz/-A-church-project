@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - My Church</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+ body {
+    font-family: 'Encode Sans',sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(./images/specialevents.jpg);
+}
+
+header {
+    /* background: #35424a; */
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.sun{
+    background-image: url(./images/servicesback.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+.wed{
+    background-image: url(./images/offering.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: black
+}
+.com{
+    background-image: url(./images/communityoutreach.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+.special{
+    background-image: url(./images/specialevents.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black
+}
+nav ul li a:hover{
+color: bisque;
+font-size: 20px;
+ transition: all ease 1s;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+        <nav>
+            <ul>
+                <li><a href="./mainpage.html">Home</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sun">
+            <h2>Sunday Worship</h2>
+            <p>Join us every Sunday at 10:00 AM for a time of worship, teaching, and fellowship.</p>
+        </section>
+
+        <section class="wed">
+            <h2>Wednesday Bible Study</h2>
+            <p>Every Wednesday at 7:00 PM, we gather for an in-depth study of the Bible.</p>
+        </section>
+
+        <section class="com">
+            <h2>Community Outreach</h2>
+            <p>We engage in community outreach on the first Saturday of every month. Join us as we serve our community!</p>
+        </section>
+
+        <section class="special">
+            <h2>Special Events</h2>
+            <p>Throughout the year, we host various special events. Check our calendar for upcoming activities!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Church. All rights reserved.</p>
+    </footer>
+</body>
+</html>

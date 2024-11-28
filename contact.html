@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - My Church</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+body{
+    font-family: 'Encode Sans',sans-serif;
+    background-image: url(./images/contactus.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 15px;
+}
+nav ul li:hover{
+    color: aqua;
+} 
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+ form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; 
+    margin: 20px auto; 
+}
+
+label {
+    margin-bottom: 5px; 
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+nav{
+    text-decoration: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #35424a; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Encode Sans',sans-serif;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: black;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+     width: 100%;
+     margin-top: 50%;
+}
+
+button:hover{
+    background-color: burlywood; 
+    transform: scale(1.2, 1.2);
+    transition: all 1s ease;
+}
+nav ul li a:hover{
+    color: bisque;
+    font-size: 20px;
+    transition: all ease 1s;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="./mainpage.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions or would like to reach out, please fill out the form below:</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email Address">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 BIG BLESSINGS Church. All rights reserved.</p>
+    </footer>
+</body>
+</html>

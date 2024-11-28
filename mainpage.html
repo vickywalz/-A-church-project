@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Church</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+body {
+    font-family: 'Encode Sans',sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(./images/background.png);
+    background-size: cover;
+}
+
+header {
+    /* background: #35424a; */
+    /* background-image: url(./background.png); */
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: black;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.about{
+    background-image: url(./images/aboutus.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    color:aliceblue
+}
+.services{
+    background-image: url(./images/servicesback.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color:aliceblue
+}
+.contact{
+    background-image: url(./images/contactus.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+a:hover{
+    color: lightblue;
+    font-size: 20px;
+    transition: all ease 1s;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BIG BLESSINGS MINISTRY</h1>
+        <nav>
+            <ul>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>We are a community of believers dedicated to spreading love and hope.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Sunday Worship: 10:00 AM</li>
+                <li>Wednesday Bible Study: 7:00 PM</li>
+                <li>Community Outreach: 1st Saturday of the month</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Email: Bigblessingsministry@gmail.com</p>
+            <p>Phone: (+234) 456-7890</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 BIG BLESSINGS MINISTRY. All rights reserved.</p>
+    </footer>
+</body>
+</html>
